@@ -98,17 +98,3 @@ if __name__ == '__main__':
 
 
 
-# gard = Gardener('Alex', tomb1)
-# gard.work(tomb1)
-# gard.harvest(tomb1)
-
-
-# gard = Gardener('Alex', object_)
-# gard.work()
-# # gard.harvest(tom1)
-#
-#
-# print(TomatoBush)
-# print(object_)
-# print(object_.tomatoes)
-# print(len(object_.tomatoes))

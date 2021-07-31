@@ -9,9 +9,6 @@ palindrom("кукла")
 #palindrom("мадам")
 '''
 
-
-
-
 '''
 
 class Tomato:
@@ -64,5 +61,8 @@ class TomatoBush:
 '''
 
 
+def card(a):
+    print('*' * (len(a) - 4) + a[-4::])
 
 
+carta(input('введите номер карты '))
