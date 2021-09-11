@@ -13,7 +13,16 @@
 # Вывести одно число – сколько раз встречается x в данном массиве.
 import random
 
-n = random.randint(5, 10)
-print(n)
-a = [random.randint(0, 10) for i in range(n)]
-print(a)
+# n = random.randint(5, 10)
+# a = [random.randint(0, 10) for i in range(n)]
+# N = random.randint(0, 10)
+#
+# c = a.count(N)
+
+n = (input())
+a = (input()).split()
+N = (input())
+
+c = a.count(N)
+print(c)
+
