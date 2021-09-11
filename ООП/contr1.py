@@ -59,10 +59,3 @@ class TomatoBush:
     def all_are_ripe(self):
         for tomato in self.tomatoes:
 '''
-
-
-def card(a):
-    print('*' * (len(a) - 4) + a[-4::])
-
-
-carta(input('введите номер карты '))

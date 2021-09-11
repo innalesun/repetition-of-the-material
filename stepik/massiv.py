@@ -19,10 +19,17 @@ import random
 #
 # c = a.count(N)
 
-n = (input())
-a = (input()).split()
-N = (input())
+# n = (input())
+# a = (input()).split()
+# N = (input())
+#
+# c = a.count(N)
+# print(c)
+
+n = int(input())
+a = [int(i) for i in input().split()]
+print(a)
+N = int(input())
 
 c = a.count(N)
 print(c)
-
