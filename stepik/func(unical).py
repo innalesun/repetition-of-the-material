@@ -1,5 +1,6 @@
 # Напишите функцию Python, которая берет список и возвращает новый список с уникальными элементами
-# первого списка
+# первого списка.
+# на ввод подается например 1,5,9,9,9,5
 
 
 def unical(ls):
@@ -14,6 +15,9 @@ def unical(ls):
 
 a = [int(i) for i in input().split(',')]
 print(unical(a))
+
+print(unical.__doc__)
+print(unical.__name__)
 
 # ls = [int(i) for i in input().split(',')]
 # print(ls)
